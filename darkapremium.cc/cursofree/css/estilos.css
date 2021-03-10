@@ -1,0 +1,224 @@
+body {
+  background-image: url(../../../fondosmil.com/fondo/10052.jpg);
+  background-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+body.dark {
+  background-image: url(../../../c4.wallpaperflare.com/wallpaper/733/791/743/anonymus-hacker-computer-mask-wallpaper-preview.jpg);
+  background-size: 100%;
+  color: #000;
+}
+
+body.dark .form-control {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #000;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid silver;
+  border-radius: 4px;
+  -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+body.dark .form-control:focus {
+  border-color: #000066;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44, 62, 80, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44, 62, 80, 0.6);
+}
+
+body.dark .form-control::-moz-placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+body.dark .form-control:-ms-input-placeholder {
+  color: #000;
+}
+
+body.dark .form-control::-webkit-input-placeholder {
+  color: #000;
+}
+
+body.dark #chkbin2 {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 100%;
+  color: #D6EAF8;
+  background-color: silver;
+  border-radius: 20px;
+  border: 2px solid #3498DB;
+  margin: 2%;
+  height: auto;
+}
+
+body.dark .title2 {
+  border: 1px solid #000;
+}
+
+body.dark #chkbin3 {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 100%;
+  color: #D6EAF8;
+  background-color: silver;
+  border-radius: 10px;
+  border: 2px solid #3498DB;
+  margin: 2%;
+  height: auto;
+}
+
+body.dark .p09 {
+  color: #000;
+}
+
+body.dark .f45 {
+  color: rgba(196, 140, 0, 0.705);
+}
+
+body.dark .f46 {
+  color: rgba(196, 140, 0, 0.705);
+}
+
+body.dark .h4 {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 100%;
+  color: #000;
+  background-color: silver;
+  border-radius: 8px;
+  border: 2px solid #3498DB;
+  margin: 2%;
+}
+
+body.dark header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: silver;
+}
+
+body.dark .hamburger {
+  width: 2.4rem;
+  height: 3px;
+  background-color: #000;
+  border-radius: 2px;
+  border: none;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+
+body.dark .hamburger::before,
+body.dark .hamburger::after {
+  content: "";
+  position: absolute;
+  width: 2.4rem;
+  height: 3px;
+  background-color: #000;
+  border-radius: 2px;
+  border: none;
+}
+body.dark #btnModal{
+  color: #000;
+  width: 50%;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 60px;
+  border: 2px solid #01579B;
+}
+body.dark #topcanales{
+  color: #000;
+  display: inline-block;
+  color: #fff;
+  width: 50%;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 60px;
+  border: 2px solid #01579B;
+}
+body.dark .tp67{
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+}
+
+body.dark .bcge {
+  padding: 2%;
+  width: 96%;
+  background-color: silver;
+  border: 2px solid #B8B3B3;
+}
+body.dark .listv{
+  color: #000;
+  cursor: none;
+}
+body.dark .topcontainer .container-modal {
+       background-color: silver;
+      margin: auto;
+      padding: 10px;
+      width: 80%;
+    }
+
+.dmr {
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+}
+
+.dmr::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #F1F1F1;
+  top: 0;
+  left: unset;
+  right: 0;
+  border-radius: 100px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+.dmr.active {
+  background: silver;
+  color: #000;
+}
+
+.dmr.active::after {
+  right: unset;
+  left: 0;
+}
+
+span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+/*# sourceMappingURL=estilos.css.map */
